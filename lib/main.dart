@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
   void navigateToGroupScreen(BuildContext context, String groupName) {
     List<MenuItem> selectedMenu;
 
-    // Determine the menu based on the selected group
+
     switch (groupName) {
       case 'Group1':
         selectedMenu = [
@@ -88,7 +88,7 @@ class MyHomePage extends StatelessWidget {
         ];
         break;
       default:
-        selectedMenu = []; // Handle any other case or default menu
+        selectedMenu = [];
     }
 
     Navigator.push(
